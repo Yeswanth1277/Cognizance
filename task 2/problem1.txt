@@ -1,0 +1,12 @@
+Problem 1:
+Write pseudocode and flowchart for a program that outputs ‘True’ if a given number is divisible by 3 and ‘False’ otherwise, without using the ‘%’ operator explicitly (like N % 3 == 0).
+
+
+To see if a number is divisible by 3 without using modulus operator.
+First take a numner- n
+Take two variables a and b
+a- integer
+b- real
+We equate a and b assuming a= n/3 and b= n/3.
+If both the values are same, then the number is divisible by 3.
+As a is an integer and b is real, although they are same, then the number is perfectly divisible by 3.

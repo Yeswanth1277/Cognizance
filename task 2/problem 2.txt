@@ -1,0 +1,19 @@
+Problem 2:
+Write pseudocode and flowchart for program that prints Nth fihonacci number.(Nth Fibonacci Number denoted as F(N), F(0)=0, F(1)=1, F(2)=1, F(3)=2,…).
+
+
+In this program, we can know the nth term of fibonacci series.
+Given F(0)=0, that is prev
+F(1)=1, that is curr
+F(2)= F(0)+F(1)= 0+1= 1, that is next
+n is the position
+let t=0,
+while n>t
+    if
+      n=t+1, then we get the required position
+        output next
+    next= prev+curr
+    prev= curr
+    curr= next
+So, the loop will be executed till we get the correct output
+Here, I usedwhile loop.
